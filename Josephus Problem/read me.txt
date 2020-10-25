@@ -1,0 +1,7 @@
+1 The file is in 2.7
+
+About the software
+
+The software calculates a problem, in the Middle Ages the method of execution was to take prisoners,
+put them in a circle, bring a rifle to everyone,
+and in turn everyone kills the one on the right until one last person remains and he is set free, the software calculates where to stand to stay alive between 2 people up to 100 people
