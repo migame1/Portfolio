@@ -1,0 +1,5 @@
+1 Open the exe
+2 Write a number of your choice in the text line
+3 Click on one of the first row buttons, which will set the number you wrote. For example, if you typed 5 and pressed the "Month" button, the number will be set to five months
+4 Click on one of the buttons in the second row which will convert the "amount of time" you selected in the previous steps to the "amount of time" you selected now
+5 To check more conversions it is advisable to click on both buttons again instead of just clicking on the second row button to avoid a chance of software crashing
