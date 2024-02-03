@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="{{url_for('static', filename='style/myProducts.css')}}"> 
+<title>Page Title</title>
+</head>
+<body>
+
+
+<h1>Your products</h1>
+
+<ul id="products-list">
+
+</ul>
+
+
+
+<script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-firestore.js"></script>
+<script src="{{url_for('static', filename='scripts/firebase.js')}}"></script>
+<script src="{{url_for('static', filename='scripts/myProducts.js')}}"></script>
+
+</body>
+</html>

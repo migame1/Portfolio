@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="{{url_for('static', filename='style/buyer.css')}}"> 
+<title>Page Title</title>
+</head>
+<body>
+
+
+
+<h1>welcome to buyer</h1>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<form class="search" action="action_page.php" id="search">
+  <input type="text" placeholder="Search by: name, categorie, sub categorie or shop name" name="search" id="searchField">  
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+
+<ul id="produts-search">
+  
+</ul>
+
+<span class="want-to-sell">
+  <h2>want to sell? <a href="sellerHub.html">click here</a></h2>
+</span> 
+
+
+<div id="product-window" style="display: none;">
+  <div class="container" id="product-window-inner">
+
+  </div>
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-firestore.js"></script>
+<script src="{{url_for('static', filename='scripts/firebase.js')}}"></script>
+<script src="{{url_for('static', filename='scripts/buyer.js')}}"></script>
+
+</body>
+</html>
